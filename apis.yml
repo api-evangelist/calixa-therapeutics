@@ -1,8 +1,27 @@
 aid: calixa-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/calixa-therapeutics.png
 name: Calixa Therapeutics
-description: Calixa Therapeutics is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Calixa Therapeutics was a privately held, San Diego-based biopharmaceutical
+  company focused on developing antibiotics to treat serious infections caused by
+  multi-drug-resistant Gram-negative bacterial pathogens. Its lead compound, CXA-201
+  (later ceftolozane/tazobactam), was an intravenous therapy for serious hospital-acquired
+  Gram-negative infections. Calixa was acquired by Cubist Pharmaceuticals in December
+  2009 for approximately $92.5 million (plus up to $310 million in milestone payments)
+  and no longer operates as an independent company. It has no public developer or API
+  surface. This profile exists in the API Evangelist network as a portfolio-lead stub
+  associated with canaan-partners; there are no API artifacts to enrich because it
+  is a defunct pharmaceutical company, not an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/calixa-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,33 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: Acquired by Cubist Pharmaceuticals in December 2009; not an independent
+  operating company and has no public API surface.
+x-acquired-by: cubist-pharmaceuticals
+x-acquired-date: '2009-12-16'
+x-industry: pharmaceuticals
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Pharmaceuticals
+- Biotechnology
+- Antibiotics
+- Anti-Infectives
+- Drug Development
+- Life Sciences
+- Healthcare
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
