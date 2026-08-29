@@ -34,6 +34,8 @@ description: 'Calixa Therapeutics was a privately held, San Diego-based biopharm
   associated with canaan-partners; there are no API artifacts to enrich because it
   is a defunct pharmaceutical company, not an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/calixa-therapeutics/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
